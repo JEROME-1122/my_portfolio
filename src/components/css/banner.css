@@ -1,0 +1,62 @@
+
+
+.bannerinnersec {
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.typwirtetext {
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.description {
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.words {
+    color: green;
+}
+
+.imgsec {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.colsec1 {
+    align-items: left;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.colsec {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.bannerrightimg {
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+}
+
+.contbtn {
+    border: 2px solid #306EE8 !important;
+    color: #306EE8 !important;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    margin-right: 10px;
+}
