@@ -3,8 +3,8 @@ import { skills } from "./datas/skill";
 
 function Skill() {
   return (
-    <section id="skills">
-      <h2 className="text-3xl font-bold text-center text-white pt-10 lg:px-0 px-[5%]">
+    <section id="skills" className="lg:px-0 px-[5%]">
+      <h2 className="text-3xl font-bold text-center text-white pt-10 ">
         My Skills
       </h2>
       <p className="text-center text-white mb-2 mt-2">
