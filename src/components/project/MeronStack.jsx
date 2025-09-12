@@ -1,11 +1,12 @@
-import React from 'react'
+import Details from "./component/Details";
+import { mern } from "../datas/mern";
 
 function MeronStack() {
   return (
     <div>
-      Mern Stack projects
+      <Details data={mern} />
     </div>
-  )
+  );
 }
 
-export default MeronStack
+export default MeronStack;

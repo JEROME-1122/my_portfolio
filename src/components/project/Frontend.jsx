@@ -1,11 +1,13 @@
-import React from 'react'
+
+import Details from "./component/Details";
+import { frontend } from "../datas/frontend";
 
 function Frontend() {
   return (
     <div>
-      dzgvdsgdsd
+      <Details data={frontend} />
     </div>
-  )
+  );
 }
 
-export default Frontend
+export default Frontend;

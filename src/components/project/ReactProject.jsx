@@ -1,11 +1,12 @@
-import React from 'react'
+import Details from "./component/Details";
+import { react } from "../datas/react";
 
 function ReactProject() {
   return (
     <div>
-      React projects
+      <Details data={react} />
     </div>
-  )
+  );
 }
 
-export default ReactProject
+export default ReactProject;

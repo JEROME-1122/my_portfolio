@@ -60,12 +60,12 @@ export const skills = [
     names: "MySQL",
     img:"src/assets/skills/mysql.png"
   },
-  {
-    id: 12,
-    names: "Git",
-    img:"src/assets/skills/git.png"
+  // {
+  //   id: 12,
+  //   names: "Git",
+  //   img:"src/assets/skills/git.png"
 
-  },
+  // },
   {
     id: 13,
     names: "GitHub",
