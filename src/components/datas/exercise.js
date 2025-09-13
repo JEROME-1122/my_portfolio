@@ -1,8 +1,12 @@
+import travel_agency from "../../assets/projects/exercise/travel_agency.jpg";
+import ask_me_identity from "../../assets/projects/exercise/ask_me_identity.jpg";
+import memory_game from "../../assets/projects/exercise/memory_game.jpg";
+
 export const exercise = [
   {
     id: 1,
     names: "Travel Agency",
-    imgs: "src/assets/projects/exercise/travel_agency.jpg",
+    imgs: `${travel_agency}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Health and Wellness app is your go-to solution for all things web development.",
@@ -14,7 +18,7 @@ export const exercise = [
   {
     id: 2,
     names: "Ask Me Identity",
-    imgs: "src/assets/projects/exercise/ask_me_identity.jpg",
+    imgs: `${ask_me_identity}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Password Reset and Authentication App is your go-to solution for all things web development.",
@@ -22,15 +26,15 @@ export const exercise = [
     coding: ["html", "Tailwind Css"],
     github: "https://github.com/JEROME-1122/Ask_Me_Identity/",
   },
-    {
+  {
     id: 3,
     names: "Memory Game",
-    imgs: "src/assets/projects/exercise/memory_game.jpg",
+    imgs: `${memory_game}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Password Reset and Authentication App is your go-to solution for all things web development.",
     url: "https://memory-g-a-m-e.netlify.app/",
-    coding: ["Html", "Css","Javascript"],
+    coding: ["Html", "Css", "Javascript"],
     github: "https://github.com/JEROME-1122/Memory_game",
   },
 ];

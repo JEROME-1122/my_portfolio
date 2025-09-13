@@ -1,8 +1,22 @@
+import doodlezz from "../../assets/projects/frontend/doodlezz.jpg"
+import seapearls from "../../assets/projects/frontend/seapearls.jpg"
+import neev from "../../assets/projects/frontend/neev.jpg"
+import bahanis_english from "../../assets/projects/frontend/bahanis_english.jpg"
+import bahanis_arabic from "../../assets/projects/frontend/bahanis_arabic.jpg"
+import scorpion_english from "../../assets/projects/frontend/scorpion_english.jpg"
+import scorpion_arabic from "../../assets/projects/frontend/scorpion_arabic.jpg"
+import dar_al_safwa_english from "../../assets/projects/frontend/dar_al_safwa_english.jpg"
+import dar_al_safwa_arabic from "../../assets/projects/frontend/dar_al_safwa_arabic.jpg"
+import desert_enterprise from "../../assets/projects/frontend/desert_enterprise.jpg"
+import mjm from "../../assets/projects/frontend/mjm.jpg"
+import watco from "../../assets/projects/frontend/watco.jpg"
+import adi from "../../assets/projects/frontend/adi.jpg"
+
 export const frontend = [
   {
     id: 1,
     names: "Doodlezz",
-    imgs: "src/assets/projects/frontend/doodlezz.jpg",
+    imgs: `${doodlezz}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Doodlezz is your go-to solution for all things web development.",
@@ -12,7 +26,7 @@ export const frontend = [
   {
     id: 2,
     names: "Seapealrs ",
-    imgs: "src/assets/projects/frontend/seapearls.jpg",
+    imgs: `${seapearls}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Seapealrs is your go-to solution for all things web development.",
@@ -24,7 +38,7 @@ export const frontend = [
   {
     id: 3,
     names: "Neev Realty",
-    imgs: "src/assets/projects/frontend/neev.jpg",
+    imgs:`${neev}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Neev Realty is your go-to solution for all things web development.",
@@ -34,7 +48,7 @@ export const frontend = [
   {
     id: 4,
     names: "Bhanais Trading",
-    imgs: "src/assets/projects/frontend/bahanis_english.jpg",
+    imgs: `${bahanis_english}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Bahanais Trading is your go-to solution for all things web development.",
@@ -45,7 +59,7 @@ export const frontend = [
   {
     id: 5,
     names: "Bhanais Trading",
-    imgs: "src/assets/projects/frontend/bahanis_arabic.jpg",
+    imgs:`${bahanis_arabic}`,
     language: "Arabic",
     description:
       "From the scratch to a fully functional website, Bahanais Trading is your go-to solution for all things web development.",
@@ -56,7 +70,7 @@ export const frontend = [
   {
     id: 6,
     names: "Scorpion Chemicals",
-    imgs: "src/assets/projects/frontend/scorpion_english.jpg",
+    imgs:`${scorpion_english}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Scorpion Chemicals is your go-to solution for all things web development.",
@@ -68,7 +82,7 @@ export const frontend = [
   {
     id: 7,
     names: "Scorpion Chemicals",
-    imgs: "src/assets/projects/frontend/scorpion_arabic.jpg",
+    imgs: `${scorpion_arabic}`,
     language: "Arabic",
     description:
       "From the scratch to a fully functional website, Scorpion Chemicals is your go-to solution for all things web development.",
@@ -79,7 +93,7 @@ export const frontend = [
   {
     id: 8,
     names: "Dar al safwa",
-    imgs: "src/assets/projects/frontend/dar_al_safwa_english.jpg",
+    imgs: `${dar_al_safwa_english}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Dar al safwa is your go-to solution for all things web development.",
@@ -90,7 +104,7 @@ export const frontend = [
   {
     id: 9,
     names: "Dar al safwa ",
-    imgs: "src/assets/projects/frontend/dar_al_safwa_arabic.jpg",
+    imgs: `${dar_al_safwa_arabic}`,
     language: "Arabic",
     description:
       "From the scratch to a fully functional website, Dar al safwa is your go-to solution for all things web development.",
@@ -101,7 +115,7 @@ export const frontend = [
   {
     id: 10,
     names: "Desert Enterprise",
-    imgs: "src/assets/projects/frontend/desert_enterprise.jpg",
+    imgs: `${desert_enterprise}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Desert Enterprise is your go-to solution for all things web development.",
@@ -112,7 +126,7 @@ export const frontend = [
   {
     id: 11,
     names: "MJM",
-    imgs: "src/assets/projects/frontend/mjm.jpg",
+    imgs: `${mjm}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, MJM is your go-to solution for all things web development.",
@@ -123,7 +137,7 @@ export const frontend = [
   {
     id: 12,
     names: "Watco ",
-    imgs: "src/assets/projects/frontend/watco.jpg",
+    imgs: `${watco}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Watco is your go-to solution for all things web development.",
@@ -134,7 +148,7 @@ export const frontend = [
   {
     id: 13,
     names: "ADI ",
-    imgs: "src/assets/projects/frontend/adi.jpg",
+    imgs: `${adi}`,
     language: "English",
     description:
       "From the scratch to a home page for ADI, ADI is your go-to solution for all things web development.",

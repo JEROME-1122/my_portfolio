@@ -1,8 +1,12 @@
+import health_wellness from "../../assets/projects/mern/health_wellness.jpg";
+
+import password_reset from "../../assets/projects/mern/password_reset.jpg";
+
 export const mern = [
   {
     id: 1,
     names: "Health and Wellness app",
-    imgs: "src/assets/projects/mern/health_wellness.jpg",
+    imgs: `${health_wellness}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Health and Wellness app is your go-to solution for all things web development.",
@@ -23,7 +27,7 @@ export const mern = [
   {
     id: 2,
     names: "Password Reset and Authentication App",
-    imgs: "src/assets/projects/mern/password_reset.jpg",
+    imgs: `${password_reset}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Password Reset and Authentication App is your go-to solution for all things web development.",

@@ -19,6 +19,8 @@ import indesign from "../../assets/skills/indesign.png"
 import figma from "../../assets/skills/figma.png"
 import xd from "../../assets/skills/xd.png"
 import dreamweaver from "../../assets/skills/dreamweaver.png"
+ 
+
 
 
 

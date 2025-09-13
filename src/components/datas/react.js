@@ -1,8 +1,15 @@
+import movie_review from "../../assets/projects/react/movie_review.jpg";
+import recipe_app from "../../assets/projects/react/recipe_app.jpg";
+import movie_search from "../../assets/projects/react/movie_search.jpg";
+import add_to_cart_Increament from "../../assets/projects/react/add_to_cart_Increament.jpg";
+import add_to_cart from "../../assets/projects/react/add_to_cart.jpg";
+import real_estate from "../../assets/projects/react/real_estate.jpg";
+
 export const react = [
   {
     id: 1,
     names: "Movie Search App",
-    imgs: "src/assets/projects/react/movie_review.jpg",
+    imgs: `${movie_review}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Movie Search App is your go-to solution for all things web development.",
@@ -13,7 +20,7 @@ export const react = [
   {
     id: 2,
     names: "Recipe App ",
-    imgs: "src/assets/projects/react/recipe_app.jpg",
+    imgs: `${recipe_app}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Recipe App is your go-to solution for all things web development.",
@@ -24,7 +31,7 @@ export const react = [
   {
     id: 3,
     names: "Movie Search (OMDB)",
-    imgs: "src/assets/projects/react/movie_search.jpg",
+    imgs: `${movie_search}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Movie Search is your go-to solution for all things web development.",
@@ -35,7 +42,7 @@ export const react = [
   {
     id: 4,
     names: "Add To Cart ",
-    imgs: "src/assets/projects/react/add_to_cart_Increament.jpg",
+    imgs: `${add_to_cart_Increament}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Add To Cart is your go-to solution for all things web development.",
@@ -46,7 +53,7 @@ export const react = [
   {
     id: 5,
     names: "Add To Cart",
-    imgs: "src/assets/projects/react/add_to_cart.jpg",
+    imgs: `${add_to_cart}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Add to cart is your go-to solution for all things web development.",
@@ -57,7 +64,7 @@ export const react = [
   {
     id: 6,
     names: "Reacl Estate",
-    imgs: "src/assets/projects/react/real_estate.jpg",
+    imgs: `${real_estate}`,
     language: "English",
     description:
       "From the scratch to a fully functional website, Real Estate is your go-to solution for all things web development.",
