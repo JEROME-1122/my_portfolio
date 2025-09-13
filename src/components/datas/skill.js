@@ -2,7 +2,7 @@ export const skills = [
   {
     id: 1,
     names: "HTML",
-    img:"src/assets/skills/html_5.png"
+    img:"../../../assets/skills/html_5.png"
   },
   {
     id: 2,
@@ -108,3 +108,4 @@ export const skills = [
     img:"src/assets/skills/dreamweaver.png"
   },
 ];
+
