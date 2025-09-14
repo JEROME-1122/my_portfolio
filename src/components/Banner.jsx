@@ -1,22 +1,22 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import bannerImg from "../assets/bannerright_img.webp";
+
 import profile from "../assets/profile.jpg";
 import resume from "../assets/resume.pdf";
 import "./css/banner.css";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Banner = () => {
-  const [text] = useTypewriter({
-    words: [
-      "Web Developer",
-      "FrontEnd",
-      "FullStack Developer",
-      "Mern Stack Developer",
-    ],
-    loop: {},
-    typeSpeed: 100,
-    deleteSpeed: 100,
-  });
+  // const [text] = useTypewriter({
+  //   words: [
+  //     "Web Developer",
+  //     "FrontEnd",
+  //     "FullStack Developer",
+  //     "Mern Stack Developer",
+  //   ],
+  //   loop: {},
+  //   typeSpeed: 100,
+  //   deleteSpeed: 100,
+  // });
   return (
     <>
       {/* <div className="bannersec  ">
@@ -61,7 +61,7 @@ const Banner = () => {
           </div>
         </div>
       </div> */}
-      <section className="lg:px-0 px-[5%]  flex items-center justify-center text-white pt-30 px-6 container mx-auto flex flex-col md:flex-row items-center gap-10 py-[50px]">
+      <section className="lg:px-0 px-[5%] py-[50%]  flex items-center justify-center text-white pt-30 px-6 container mx-auto flex flex-col md:flex-row items-center gap-10 py-[50px]">
         {/* LEFT: Text Content */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">

@@ -38,8 +38,9 @@ export default function Navbar() {
                 // "banner",
                 "about",
                 "skills",
+                "experience",
                 "projects",
-                // "experience",
+
                 "contact",
               ].map((section) => (
                 <Link
@@ -71,8 +72,8 @@ export default function Navbar() {
               // "banner",
               "about",
               "skills",
+              "experience",
               "projects",
-              // "experience",
               "contact",
             ].map((section) => (
               <Link
