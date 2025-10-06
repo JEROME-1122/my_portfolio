@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import Details from "./project/Details";
+import Details from "./project/component/Details";
 import { frontend } from "./datas/frontend";
 import { mern } from "./datas/mern";
 import { react } from "./datas/react";
@@ -11,20 +11,20 @@ function Project() {
   const tabs = [
     {
       id: "tab1",
-      label: "Frontend",
+      label: "Mern Stack",
     },
     {
       id: "tab2",
-      label: "Mern Stack",
+      label: "Frontend",
     },
     {
       id: "tab3",
       label: "React",
     },
-    {
-      id: "tab4",
-      label: "Exercise ",
-    },
+    // {
+    //   id: "tab4",
+    //   label: "Exercise ",
+    // },
     // {
     //   id: "tab5",
 
@@ -33,8 +33,9 @@ function Project() {
   ];
 
   const tabContents = {
-    tab1: <Details data={frontend} />,
-    tab2: <Details data={mern} />,
+ 
+    tab1: <Details data={mern} />,
+       tab2: <Details data={frontend} />,
     tab3: <Details data={react} />,
     tab4: <Details data={exercise} />,
     tab5: <div>{/* <Emailer /> */}</div>,

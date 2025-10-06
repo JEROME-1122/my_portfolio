@@ -40,7 +40,7 @@ export default function Navbar() {
                 "skills",
                 "experience",
                 "projects",
-
+                "certificate",
                 "contact",
               ].map((section) => (
                 <Link
@@ -74,6 +74,7 @@ export default function Navbar() {
               "skills",
               "experience",
               "projects",
+              "certificate",
               "contact",
             ].map((section) => (
               <Link
@@ -94,7 +95,7 @@ export default function Navbar() {
       {visible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-6 p-3 bg-indigo-600 text-white rounded-full shadow-lg hover:bg-indigo-700 transition z-9999"
+          className="fixed bottom-6 right-6 p-3 bg-indigo-600 text-white rounded-full shadow-lg hover:bg-indigo-700 transition"
         >
           <FaArrowUp />
         </button>
@@ -102,4 +103,3 @@ export default function Navbar() {
     </>
   );
 }
-
