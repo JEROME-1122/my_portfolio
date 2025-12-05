@@ -27,7 +27,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="fixed top-0 w-full  text-white shadow-lg z-50 lg:px-0 px-[0%] bg-gradient-to-r from-[#1F1E38] to-[#281C37]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="container mx-auto ">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="text-2xl font-bold">MyPortfolio</div>
